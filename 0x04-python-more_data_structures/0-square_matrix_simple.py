@@ -2,8 +2,7 @@
 
 """ a function that computes the square value of all integers of a matrix """
 
-def square_matrix_simple(matrix=[]):
-    
+def square_matrix_simple(matrix=[]): 
     new_matrix = matrix.copy()
 
     for i in range(len(matrix)):
