@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+Module with function load_from_json
+"""
 
 
 import json
