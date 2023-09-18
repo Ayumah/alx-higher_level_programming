@@ -95,7 +95,7 @@ class Rectangle(Base):
             [print("#", end="") for w in range(self.width)]
             print("")
 
-        def update(self, *args, **kwargs):
+    def update(self, *args, **kwargs):
         """Update the Rectangle.
 
         Args:
@@ -123,7 +123,7 @@ class Rectangle(Base):
                     self.x = arg
                 elif a == 4:
                     self.y = arg
-                a += 1
+            a += 1
 
         elif kwargs and len(kwargs) != 0:
             for k, v in kwargs.items():
